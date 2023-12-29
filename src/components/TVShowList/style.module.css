@@ -1,0 +1,23 @@
+.tvShowListItem{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 20px
+}
+
+.list:hover{
+    overflow-x:overlay
+}
+
+.list{
+    display:flex;
+    width: calc(100vw - 25px);
+    overflow-x: hidden;
+    padding-bottom: 30px;
+}
+
+.title{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 20px;    
+}
